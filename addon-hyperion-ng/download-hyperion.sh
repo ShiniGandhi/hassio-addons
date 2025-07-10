@@ -35,7 +35,7 @@ map_architecture() {
 
 # Validate inputs
 validate_inputs() {
-    local version="$1"
+    local version="2.0.17"
     local build_arch="$2"
     local output_dir="$3"
     

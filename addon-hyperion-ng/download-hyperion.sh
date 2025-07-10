@@ -163,12 +163,9 @@ main() {
         usage
     fi
     
-    local version="2.1.1"  # Hardcode the version
-    local build_arch="$1"
-    local output_dir="$3"  # Corrected to use $3 for output_dir
-    
-    # Shift off the first two arguments so that build_arch is $1 and output_dir is $2
-    shift 2
+    local version="$1"
+    local build_arch="$2"
+    local output_dir="$3"
     
     log "Starting Hyperion download process"
     log "Version: $version"

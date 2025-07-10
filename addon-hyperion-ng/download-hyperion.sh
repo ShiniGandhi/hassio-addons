@@ -163,7 +163,7 @@ main() {
         usage
     fi
     
-    local version="2.0.17"  # Hardcode the version
+    local version="2.1.1"  # Hardcode the version
     local build_arch="$1"
     local output_dir="$3"  # Corrected to use $3 for output_dir
     
